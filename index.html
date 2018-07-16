@@ -1,1 +1,186 @@
-"Hello world" 
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>NUTRS</title>
+	<link rel="shortcut icon" href="nutrs_icon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>
+	<link rel="stylesheet" href="css/mystyle.css">
+	<script type="text/javascript" src="js/input.js"></script>
+  </head>
+  
+  
+  <body>
+	<nav class="navbar navbar-inverse" data-spy="affix" >
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" id='navbar_logo' href="#">NUTRS</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active" style="color: #ffda00;"><a href="index.html">Home</a></li>
+			<li  ><a href="pages/west_marches.html" style="color:#ffda00" >West Marches</a></li>
+			<li ><a href="pages/calendar.html" style="color:#ffda00">Calendar</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#ffda00">Resources
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu" id="resource_drop" style="background-color:#8e0f11">
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Character Creation</a></li>
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Other 2</a></li>
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Thing</a></li>
+				</ul>
+			</li>
+			<li  ><a href="pages/eboard.html" style="color:#ffda00">Eboard</a></li>
+		</ul>
+	  </div>
+	</nav>
+	<br>
+	<br>
+	<br>
+
+	<div class = "row">
+	<h1 class="page_header" >Welcome to NUTRS</h1>
+	</div>
+	<section class='big-box'>
+
+	<div class="container" id='car-div'>
+
+	  <div id="myCarousel" class="container-fluid carousel slide " data-ride="carousel">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		  <li data-target="#myCarousel" data-slide-to="4"></li>
+		  <li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+			<li data-target="#myCarousel" data-slide-to="7"></li>
+			<li data-target="#myCarousel" data-slide-to="8"></li>
+			<li data-target="#myCarousel" data-slide-to="9"></li>
+			<li data-target="#myCarousel" data-slide-to="10"></li>
+		  <li data-target="#myCarousel" data-slide-to="11"></li>
+
+		  </ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+		  <div class="item active">
+			<a href='pages/about.html'> <img src="images/hero_intro.png" onclick="pages/about.html" alt="WELCOME TO HEL *cough* NUTRS" style="width:100%;"> </a>
+		  </div>
+
+		  <div class="item">
+			<a href='pages/west_marches.html'> <img src="images/hero_wm.png" alt="West Marches Hero Image" style="width:100%;"> </a>
+		  </div>
+
+		  <div class="item">
+			<a href='pages/calendar.html'> <img src="images/hero_calendar.png" alt="Lets get chronological" style="width:100%;"> </a>
+		  </div>
+
+		  <div class="item">
+			<img src="images/hero_fill_1.png" alt="Message in a bottle...yeah" style="width:100%;">
+		  </div>
+
+		  <div class="item">
+			 <img src="images/hero_fill_2.png" alt="Message in a bottle...yeah" style="width:100%;">
+		  </div>
+
+		  <div class="item">
+			<img src="images/hero_fill_3.png" alt="Message in a bottle...yeah" style="width:100%;">
+		  </div>
+
+			<div class="item">
+				<img src="images/general/bbeg_1.jpg" alt="BBEG Fight 1" style="width:100%;">
+			</div>
+
+			<div class="item">
+				<img src="images/general/bbeg_2.jpg" alt="BBEG Fight 2" style="width:100%;">
+			</div>
+
+			<div class="item">
+				<img src="images/general/bbeg_3.jpg" alt="BBEG Fight 3" style="width:100%;">
+			</div>
+
+			<div class="item">
+				<img src="images/general/pvp_1.jpg" alt="PVP Fight 1" style="width:100%;">
+			</div>
+
+			<div class="item">
+				<img src="images/general/pvp_2.jpg" alt="Message in a bottle...yeah" style="width:100%;">
+			</div>
+
+		  <div class="item">
+			<a href='pages/eboard.html'> <img src="images/hero_eboard.png" alt="Message in a bottle...yeah" style="width:100%;"> </a>
+		  </div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+		 <!---<h3 class="float-below">Northeastern's Darn-tootinest Shindig of Games, Collaboration, and Argumentative and Agressive Negotiating Tactical Training Course</h2>  -->
+	  </div>
+	</div>
+	<div class="container-fluid bg-3 text-center" id="text_below_hero_homepage">
+	  <br>
+	  <div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnutrsofficial%2F&tabs=timeline&width=1080&height=768&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=272640073217479" width="1080" height="768" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+			</div>
+			<div class="col-sm-4">
+			  <p class = "large_text">The Notheastern University Tabletop Roleplaying Society (NUTRS) is a student-run organization based out of Northeastern University's Boston campus. </br></br> We do stuff nad things where we roll the dice and stuff and probably the biggest and most active collegiate tabletop roleplaying club on the east coast, which tbh is pretty freaking dope!</p>
+
+			</div>
+
+			<div class="col-sm-1"></div>
+
+		</div>
+
+	</div>
+
+	</section>
+	</br>
+	<!-------
+	  Footer
+	-------->
+  <footer class="container-fluid bg-info" id="feat">
+	<div class="container-fluid col-sm-4">
+	<br>
+		<ul class="list-unstyled">
+			<li>You can email us at <a href="mailto:nutrs.official@gmail.com" target="_top">nutrs.official@gmail.com</a></li>
+			<li>You can find us on our facebook <a href='https://www.facebook.com/nutrsofficial'>page</a> and our facebook <a href="https://www.facebook.com/groups/nutrs/">group</a> </li>
+			<li>Here is our link to <a href='https://discord.gg/wacAgK8'>discord</a></li>
+		</ul>
+	</div>
+	<div class="container-fluid col-sm-4">
+		<ul class="list-unstyled">
+			<br>
+			<li> Need to reserve a room? <a href='https://docs.google.com/…/1FAIpQLSfecDkHKm-RE4yDIR…/viewform'> Click Here! </a> or Borrow a Battle Map? <a href="https://goo.gl/forms/DBvJTHZo1Gn7y9oI2">Click Here!</a></li>
+			<li>Remember our usual meetings are at 6pm every saturday. You can check out the above links to get more up to date information!</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid col-sm-4">
+		<ul class="list-unstyled text-right">
+			<br>
+			<br>
+			<br>
+
+			<img id='SMEAGOL' src="images/gollum.png" alt="its totaly not a ring" onclick="speak_friend()">
+			<li>© William Epstein</li>
+		</ul>
+	</div>
+  </footer>
+  
+  </body>
+</html>

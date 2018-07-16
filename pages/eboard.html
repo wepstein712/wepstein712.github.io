@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eboard</title>
+	<link rel="shortcut icon" href="../nutrs_icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/> 
+	<link rel="stylesheet" href="../css/mystyle.css">
+  </head>
+  
+  
+  <body>
+ <!-- <header>
+	<script type="text/javascript" src="../js/input.js"></script>
+	<div class="row" style>
+	<div class="col-sm-2" id="homepage_section">
+		<a href ="../index.html">
+			<img class="img-rounded img-responsive" id="homepage_img" src="../images/nutrs.png" alt="test1" >
+		</a>
+    </div>
+	<div class="col-sm-8" id="central_nutrs">
+		<!------<img class="img-rounded img-responsive" id="nutrs_txt" src="nutrs.png" alt="Northeastern University Tabletop Roleplaying Society" style="width:100%"> 
+		<h1 class="text-center" style="font-size:6em" >Northeastern University <br>Tabletop Roleplaying Society</h1>
+	</div>
+	<div class="col-sm-2" id="speak_friendo">
+		<img class="img-rounded img-responsive" id="test_1" src="../images/nutrs.png" onclick="speak_friend()" alt="test2" style="float:right">
+	</div>
+	</div>
+  </header>
+  -->
+  
+  
+
+	<nav class="navbar navbar-inverse" data-spy="affix" style="">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		   <a class="navbar-brand" id='navbar_logo' href="#">NUTRS</a>
+		</div>
+		<ul class="nav navbar-nav" style="">
+			<li> <a href="../index.html" style="color:#ffda00">Home</a></li>
+			<li><a href="west_marches.html" style="color:#ffda00" >West Marches</a></li>
+			<li><a href="calendar.html" style="color:#ffda00">Calendar</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#ffda00">Resources
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu" id="resource_drop" style="background-color:#8e0f11">
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Character Creation</a></li>
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Other 2</a></li>
+				<li><a href="#" style="color:#ffda00; font-size: 1.5em;">Thing</a></li>
+				</ul>
+			</li>
+			<li class = "active"><a href="#" style="color:#ffda00">Eboard</a></li>
+
+		</ul>
+	  </div>
+	</nav>
+	
+	
+	
+	
+	
+	<br>
+	<br>
+	<br>
+	<section class='big-box'>
+	<div class = "row">
+	<h1 class="page_header_eboard" style="font-size: 2em;">Your Council, Assembly, Clan, Conclave, Directorate, Ministry, Powow, Senate  (yes we are THE Senate), TL;DR <br> </h1>
+	<h1 class="page_header_eboard" style="font-size: 5em;">Your Kings, Queens, and In-betweens </h1>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2">
+			<img class="img-responsive" id="president" src="../images/president.png" alt="Lets build a...">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="president_about" >
+				<p class="large_text">Hi, my name is Ronaldo Turpentine and I am a lovely bunch of coconuts....do do do do. </p>
+			</div>
+		</div>
+		
+		<div class="col-sm-2">
+			<img class="img-rounded img-responsive" id="vp" src="../images/vp.png" alt="I have a gay rabbit. The acronym is BOTUS">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="vp_about">
+				<p class="large_text">Hi, my name is Mich and I, like my rabbit am very cute. </p>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2">
+			<img class="img-rounded img-responsive" id="secretary" src="../images/secretary.png" alt="What sorry I didn't catch that.I was writing everything down snarkily">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="secretary_about">
+				<p class="large_text">Hi, my name is unimportant cause i just write everything down...her da dur da dur. #snark #feminism </p>
+			</div>
+		</div>
+		
+		<div class="col-sm-2">
+			<img class="img-rounded img-responsive" id="treasurer" src="../images/treasurer.png" alt="MONEY">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="treasurer_about">
+				<p class="large_text">monkey money money money money!!!!!!!!!!!!!! </p>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2">
+			<img class="img-rounded img-responsive" id="outreach" src="../images/outreach.png" alt="I can show you the world...or email or text or fb or discord....there is alot and im underpaid">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="outreach_about">
+				<p class="large_text">Did you know we have 12 events coming up? Well if you didnt i am sure coco will passive agressively remind me about each one cause he doesn;t think I can do this job without him. </p>
+			</div>
+		</div>
+		
+		<div class="col-sm-2">
+			<img class="img-rounded img-responsive" id="mgm" src="../images/mgm.png" alt="MONEY">
+		</div>
+		<div class="col-sm-3">
+			<div class="panel" id="mgm_about">
+				<p class="large_text">One of these things is not like the others. One of these things is just not the same....hint its that its someone different that last year.</p>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	
+	
+		<!-------
+	  Footer	
+	-------->
+	<br>
+  <footer class="container-fluid bg-info" id="feat">
+	<div class="container-fluid col-sm-8">
+	<br>
+		<ul class="list-unstyled">
+			<li>You can email us at <a href="mailto:nutrs.official@gmail.com" target="_top">nutrs.official@gmail.com</a></li>
+			<li>You can find us on our facebook <a href='google.com'>page</a> and our facebook <a href="google.com">group</a> </li>
+			<li>Here is our link to <a href='google.com'>discord</a></li>
+			<li>Remember our usual meetings are at 6pm every saturday. You can check out the over links to get more up to date information!</li>
+		</ul>
+	</div>
+	
+	<div class="container-fluid col-sm-4">
+		<ul class="list-unstyled text-right">
+			<br>
+			<br>
+			<br>
+			<br>
+			<li>© William Epstein</li>
+		</ul>
+	</div>
+  </footer>
+  
+  </body>
+</html>

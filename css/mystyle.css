@@ -1,0 +1,185 @@
+
+
+/* ---------------------------
+Fonts
+-----------------------------*/
+@font-face {
+	font-family: nutrs-font;
+	src: url(fonts/RAPSCALL.TTF);
+}
+
+
+
+* {
+	color: black;
+	font-family:"serif";
+	margin-bottom: 0;
+}
+
+body {
+    a_background-image: url("../images/rsz_nutrs.png");
+    background-color: LightCyan;
+	overflow-x: hidden;
+}
+
+#big-box {
+	border: 5px solid black;
+	blackground-color: RosyBrown;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+	font-size: 1.5em;
+	color: #ffda00;
+	
+	
+}
+
+#navbar_logo {
+	color: #ffda00;
+	font-size: 1.5em;
+	font-family: nutrs-font;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+  }
+  
+ .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+.large_text {
+	color: black; 
+	font-size: 1.5em;
+}
+
+.resmal {
+	font-size: 1em;
+}
+
+.float-below {
+	position: absolute;
+	text-align: center;
+	top: 0%;
+	transform: translate(1%,-20%);
+	background: linear-gradient(LightSlateGray, DarkSlateGray);
+	margin-right: 2em;
+	margin-left: 10px;
+	
+		
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: SlateGrey;
+    background-image: none;
+}
+
+
+#SMEAGOL {
+    position: fixed;
+    bottom: 5em;
+	right: 0em;
+    
+}
+#car-div {
+	background-color: parent; 
+	
+
+}
+
+
+#west_marches_description {
+	background-color: #ffda00;
+	border-color: #ffda00;
+	color: #8e0f11;
+}
+
+footer {
+	color: #ffda00;
+}
+
+.page_header{
+	text-align: center; 
+	color: #8e0f11; 
+	text-shadow: -1px 0 #ffda00, 0 1px #ffda00, 1px 0 #ffda00, 0 -1px #ffda00;
+	font-family: nutrs-font;
+	font-size: 10em;
+}
+
+#president_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#president_about>p {
+	color: #8e0f11;
+}
+
+#vp_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#vp_about>p {
+	color: #8e0f11;
+}
+
+#secretary_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#secretary_about>p {
+	color: #8e0f11;
+}
+
+#treasurer_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#treasurer_about>p {
+	color: #8e0f11;
+}
+
+#outreach_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#outreach_about>p {
+	color: #8e0f11;
+}
+
+#mgm_about{
+	background-color: #ffda00;
+	border-color: #ffda00;
+}	
+
+#mgm_about>p {
+	color: #8e0f11;
+}
+
+
+#feat {
+	background-color: DarkRed;
+}
+
+#wm_map_caption {
+	background-color: #ffda00;
+	border-color: #ffda00;
+}
+
+#wm_map_caption>p {
+	color: #8e0f11;
+}
+
+
+
+
+
+
