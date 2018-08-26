@@ -82,12 +82,12 @@ h4 {
 }
 
 
-#SMEAGOL {
-    position: fixed;
-    bottom: 5em;
-	right: 0em;
-    
-}
+/*#SMEAGOL {*/
+    /*position: fixed;*/
+    /*bottom: 5em;*/
+	/*right: 0em;*/
+    /**/
+/*}*/
 #car-div {
 	background-color: parent; 
 }
