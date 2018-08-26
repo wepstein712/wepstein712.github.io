@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f9fa89-04d0-45a4-8790-e1768ce33c2f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/calendar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/west_marches.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/west_marches.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="eboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/eboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -28,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="west_marches.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="west_marches.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/west_marches.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="32" selection-end-column="21" />
+              <caret line="62" column="479" selection-start-line="62" selection-start-column="479" selection-end-line="62" selection-end-column="479" />
               <folding>
                 <element signature="e#4808#4814#0" expanded="true" />
               </folding>
@@ -81,8 +78,8 @@
         <option value="$PROJECT_DIR$/css/mystyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/calendar.html" />
-        <option value="$PROJECT_DIR$/pages/west_marches.html" />
         <option value="$PROJECT_DIR$/pages/eboard.html" />
+        <option value="$PROJECT_DIR$/pages/west_marches.html" />
       </list>
     </option>
   </component>
@@ -165,12 +162,12 @@
       <workItem from="1532799108563" duration="10000" />
       <workItem from="1533176591211" duration="622000" />
       <workItem from="1533242293151" duration="65000" />
-      <workItem from="1535246047218" duration="71000" />
+      <workItem from="1535246047218" duration="1190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8688000" />
+    <option name="totallyTimeSpent" value="9807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,6 +474,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/eboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -504,17 +508,10 @@
     <entry file="file://$PROJECT_DIR$/pages/west_marches.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="32" selection-end-column="21" />
+          <caret line="62" column="479" selection-start-line="62" selection-start-column="479" selection-end-line="62" selection-end-column="479" />
           <folding>
             <element signature="e#4808#4814#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/eboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
