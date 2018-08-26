@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f9fa89-04d0-45a4-8790-e1768ce33c2f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/west_marches.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/west_marches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/input.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="west_marches.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="west_marches.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/west_marches.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -50,11 +50,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
               <folding>
                 <element signature="e#7374#7380#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -81,11 +90,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/calendar.html" />
         <option value="$PROJECT_DIR$/pages/eboard.html" />
         <option value="$PROJECT_DIR$/css/mystyle.css" />
         <option value="$PROJECT_DIR$/pages/west_marches.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/input.js" />
       </list>
     </option>
   </component>
@@ -120,6 +130,11 @@
               <item name="wepstein712.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wepstein712.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wepstein712.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wepstein712.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wepstein712.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -168,12 +183,12 @@
       <workItem from="1532799108563" duration="10000" />
       <workItem from="1533176591211" duration="622000" />
       <workItem from="1533242293151" duration="65000" />
-      <workItem from="1535246047218" duration="2047000" />
+      <workItem from="1535246047218" duration="2409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10664000" />
+    <option name="totallyTimeSpent" value="11026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -494,16 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="e#7374#7380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -518,6 +523,23 @@
           <folding>
             <element signature="e#4808#4814#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="e#7374#7380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
